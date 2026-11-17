@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata diri</title>
+    <style>
+    
+    body{
+    width:400px;
+    margin:auto;
+    border:2px solid black;
+    padding:20px; 
+    border-radius:10px; 
+    box-sizing:border-box;
+    }
+        img{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            padding-bottom: 5px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        .profil{
+            display: flex;
+            margin:0;
+            align-items: center;
+            gap:20px;
+        }
+        
+        .icon-ig{
+            width:15px;
+            height:15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Biodata Diri</h1>
+     <div class = "profil">
+    <img src="IMAGES/foto.jpg">
+    <h2>AINI</h2>
+    </div>
+    
+    <hr>
+    <p><span style="display:inline-block; width:130px;"><b>Nama Lengkap</b></span>: Nurul Aini</p>
+    <p><span style="display:inline-block; width:130px;"><b>Tempat/Tgl Lahir</b></span>: Mojokerto, 22-10-2009</p>
+    <p><span style="display:inline-block; width:130px;"><b>Abs/Kelas</b></span>: 26 / X RPL1</p>
+    <p><span style="display:inline-block; width:130px;"><b>Hobby</b></span>: Menari</p>
+    <p><span style="display:inline-block; width:130px;"><b>Motto</b></span>: Kegagalan kunci kesuksesan </p> 
+    <hr>
+    <footer>
+        <a href="https://www.instagram.com/nrl.ainiiiyy?igsh=YW04aHIxcTMzNm1s">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" class=icon-ig>
+            ig
+        </a>
+         <a href="https://www.tiktok.com/@aini.girl_?_r=1&_t=ZS-964hmBKI7D3">
+            <img src="logo/IMG-20260504-WA0003.jpg"class=icon-ig>
+            tt
+        </a>
+        
+         <a href="https://YouTube.com">
+            <img src="logo/IMG-20260504-WA0002.jpg" class=icon-ig>
+            @ShafaAnastasya-q9o
+        </a>
+        
+         <a href="+62 858-6068-6186">
+            <img src="logo/IMG-20260504-WA0001.jpg" class=icon-ig>
+            wa
+        </a>
+        
+    </footer>
+</body>
+</html>
